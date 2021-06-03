@@ -1,10 +1,11 @@
-package fizzbuzz;
+package src.main.java.fizzbuzz;
 
 import java.util.stream.IntStream;
 
 public class FizzBuzz {
 	public static void main(String[] args) {
 		fizzbuzzStage1();
+		fizzbuzzStage2();
 	}
 
 	public static void fizzbuzzStage1() {
@@ -13,7 +14,7 @@ public class FizzBuzz {
 				.forEach(System.out::println);
 	}
 
-	public void fizzbuzzStage2() {
+	public static void fizzbuzzStage2() {
 
 	}
 
