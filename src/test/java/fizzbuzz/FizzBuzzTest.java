@@ -9,43 +9,37 @@ public class FizzBuzzTest {
 
 	@Test
 	public void checkCaseContains3() {
-		FizzBuzz fb = new FizzBuzz();
-		Assert.assertEquals("Fizz", fb.check(13));
+		Assert.assertEquals("Fizz", FizzBuzz.check(13));
 	}
 
 	@Test
 	public void checkCaseContains5() {
-		FizzBuzz fb = new FizzBuzz();
-		Assert.assertEquals("Buzz", fb.check(52));
+		Assert.assertEquals("Buzz", FizzBuzz.check(52));
 	}
 
 	@Test
 	public void checkCaseContains3And5() {
-		FizzBuzz fb = new FizzBuzz();
-		Assert.assertEquals("FizzBuzz", fb.check(53));
+		Assert.assertEquals("FizzBuzz", FizzBuzz.check(53));
 	}
 
 	@Test
 	public void checkCaseDividedBy3() {
-		FizzBuzz fb = new FizzBuzz();
-		Assert.assertEquals("Fizz", fb.check(9));
+		Assert.assertEquals("Fizz", FizzBuzz.check(9));
 	}
 
 	@Test
 	public void checkCaseDividedBy5() {
-		FizzBuzz fb = new FizzBuzz();
-		Assert.assertEquals("Buzz", fb.check(10));
+		Assert.assertEquals("Buzz", FizzBuzz.check(10));
 	}
 
 	@Test
 	public void checkCaseDividedBy3And5() {
-		FizzBuzz fb = new FizzBuzz();
-		Assert.assertEquals("FizzBuzz", fb.check(15));
+		Assert.assertEquals("FizzBuzz", FizzBuzz.check(15));
 	}
 
 	@Test
 	public void checkCaseReturnNumber() {
-
+		Assert.assertEquals("1", FizzBuzz.check(1));
 	}
 
 }
